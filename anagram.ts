@@ -1,5 +1,5 @@
 function isAnagram(s: string, t: string): boolean {
-    let results={}
+    let results:Record<string,number>={}
     for (let index = 0; index < s.length; index++) {
         results[s[index]]=(results[s[index]]||0)+1
     }
