@@ -1,4 +1,4 @@
-class MinStack {
+export class MinStack {
   values: number[][];
   minVal: null | number;
   constructor() {
